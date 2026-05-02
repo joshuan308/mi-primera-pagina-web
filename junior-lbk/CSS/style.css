@@ -1,0 +1,325 @@
+body {
+    font-family: arial, sans-serif;
+    background-color: #1a0000;
+    background-image: url('https://upload.wikimedia.org/wikipedia/commons/thumb/5/5e/Escudo_del_Junior_de_Barranquilla.svg/800px-Escudo_del_Junior_de_Barranquilla.svg.png');
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: 500px;
+    background-attachment: fixed;
+    color: rgb(220, 30, 30);
+    margin: 0;
+}
+
+header {
+    background-color: rgba(0, 0, 0, 0.92);
+    color: rgb(220, 30, 30);
+    padding: 15px;
+    text-align: center;
+    border-bottom: 3px solid rgb(220, 30, 30);
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.2em;
+    color: white;
+    text-shadow: 2px 2px 4px rgb(220, 30, 30);
+}
+
+.logo-header {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 8px;
+    border: 3px solid rgb(220, 30, 30);
+}
+
+nav {
+    background-color: rgb(180, 10, 10);
+    padding: 10px 0;
+    text-align: center;
+}
+
+nav ul {
+    padding: 0;
+    margin: 0;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline-block;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+    font-size: 1.1em;
+}
+
+nav ul li a:hover {
+    color: #ffdd00;
+    text-decoration: underline;
+    font-size: 1.2em;
+}
+
+main {
+    padding: 20px;
+    text-align: center;
+    margin-bottom: 60px;
+}
+
+main h2 {
+    color: white;
+    font-size: 2em;
+    margin-top: 0;
+    text-shadow: 1px 1px 3px rgb(220, 30, 30);
+}
+
+main p {
+    font-size: 1.2em;
+    color: white;
+}
+
+footer {
+    background-color: rgb(150, 0, 0);
+    color: white;
+    text-align: center;
+    padding: 8px 0;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+    z-index: 50;
+    border-top: 2px solid #ffdd00;
+}
+
+.tabla-reviews {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    background-color: rgba(0,0,0,0.75);
+}
+
+.tabla-reviews th {
+    background-color: rgb(180, 10, 10);
+    color: white;
+    padding: 12px;
+    text-align: left;
+}
+
+.tabla-reviews td {
+    padding: 15px;
+    border-bottom: 1px solid rgb(220, 30, 30);
+    vertical-align: middle;
+    color: white;
+}
+
+.tabla-reviews tr:nth-child(even) {
+    background-color: rgba(220, 30, 30, 0.15);
+}
+
+.tabla-reviews img {
+    width: 80px;
+    height: 80px;
+    object-fit: cover;
+    border-radius: 5px;
+    display: block;
+    margin-bottom: 5px;
+}
+
+.btn-leer {
+    background-color: rgb(180, 10, 10);
+    color: white;
+    padding: 8px 16px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+.btn-leer:hover {
+    background-color: #ffdd00;
+    color: black;
+}
+
+.Video-container {
+    background-color: rgba(0, 0, 0, 0.85);
+    border: 2px solid rgb(220, 30, 30);
+    border-radius: 10px;
+    padding: 20px;
+    margin: 20px auto;
+    max-width: 600px;
+    text-align: center;
+}
+
+.Video-container h3 {
+    color: #ffdd00;
+    font-size: 1.4em;
+}
+
+.Video-container p {
+    color: white;
+    font-size: 1em;
+}
+
+.Video-container iframe {
+    border-radius: 8px;
+    margin-top: 10px;
+}
+
+.formulario {
+    background-color: rgba(0, 0, 0, 0.85);
+    border: 2px solid rgb(220, 30, 30);
+    border-radius: 10px;
+    padding: 30px;
+    margin: 20px auto;
+    max-width: 500px;
+    text-align: center;
+}
+
+.formulario label {
+    color: #ffdd00;
+    font-size: 1.1em;
+    font-weight: bold;
+    display: block;
+    margin-bottom: 5px;
+}
+
+.formulario input[type="text"],
+.formulario input[type="email"],
+.formulario textarea,
+.formulario select,
+.formulario input[type="file"] {
+    width: 100%;
+    border: 1px solid rgb(220, 30, 30);
+    border-radius: 5px;
+    padding: 8px;
+    margin-bottom: 15px;
+    font-size: 1em;
+    box-sizing: border-box;
+    background-color: #1a0000;
+    color: white;
+}
+
+.formulario textarea {
+    height: 120px;
+    resize: vertical;
+}
+
+.formulario input[type="submit"] {
+    background-color: rgb(180, 10, 10);
+    color: white;
+    padding: 12px 0;
+    width: 100%;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1.1em;
+    font-weight: bold;
+}
+
+.formulario input[type="submit"]:hover {
+    background-color: #ffdd00;
+    color: black;
+}
+
+.contenedor {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.columna {
+    flex: 1;
+}
+
+iframe {
+    width: 100%;
+    height: 300px;
+    border: 0;
+}
+
+.boton-flotante {
+    position: fixed;
+    width: 55px;
+    height: 55px;
+    bottom: 70px;
+    right: 20px;
+    border-radius: 50%;
+    box-shadow: 1px 1px 5px #ffdd00;
+    z-index: 100;
+    overflow: hidden;
+}
+
+.boton-flotante img {
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    padding: 20px;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.card-container {
+    background-color: rgba(0, 0, 0, 0.85);
+    border: 2px solid rgb(220, 30, 30);
+    border-radius: 10px;
+    padding: 20px;
+    text-align: center;
+    color: white;
+}
+
+.card-container h2 {
+    color: #ffdd00;
+    margin-top: 0;
+    font-size: 1.3em;
+}
+
+.card-container p {
+    color: white;
+    font-size: 0.95em;
+}
+
+.card-container ul {
+    list-style: none;
+    padding: 0;
+    color: white;
+}
+
+.btn-comprar {
+    display: inline-block;
+    background-color: rgb(180, 10, 10);
+    color: white;
+    padding: 10px 25px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+.btn-comprar:hover {
+    background-color: #ffdd00;
+    color: black;
+}
+
+.hero-banner {
+    background: rgba(0,0,0,0.8);
+    border: 2px solid rgb(220,30,30);
+    border-radius: 12px;
+    padding: 30px;
+    max-width: 700px;
+    margin: 30px auto;
+}
+
+.hero-banner img {
+    width: 180px;
+    border-radius: 50%;
+    border: 4px solid #ffdd00;
+    margin-bottom: 15px;
+}
